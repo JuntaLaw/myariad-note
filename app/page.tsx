@@ -3,7 +3,7 @@ import AuthButton from "../components/AuthButton";
 import { createClient } from "@/utils/supabase/server";
 import ConnectSupabaseSteps from "@/components/tutorial/ConnectSupabaseSteps";
 import SignUpUserSteps from "@/components/tutorial/SignUpUserSteps";
-import LpTop from "@/components/LpTop";
+import LpTop from "@/components/lp/LpTop";
 
 export default async function Index() {
   const canInitSupabaseClient = () => {

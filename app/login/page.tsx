@@ -25,7 +25,7 @@ export default function Login({
       return redirect("/login?message=Could not authenticate user");
     }
 
-    return redirect("/protected");
+    return redirect("/toppage");
   };
 
   const signUp = async (formData: FormData) => {
@@ -101,6 +101,7 @@ export default function Login({
         >
           Sign In
         </SubmitButton>
+
         <SubmitButton
           formAction={signUp}
           className="border border-foreground/20 rounded-md px-4 py-2 text-foreground mb-2"
