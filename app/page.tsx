@@ -3,7 +3,7 @@ import AuthButton from "../components/AuthButton";
 import { createClient } from "@/utils/supabase/server";
 import ConnectSupabaseSteps from "@/components/tutorial/ConnectSupabaseSteps";
 import SignUpUserSteps from "@/components/tutorial/SignUpUserSteps";
-import Header from "@/components/Header";
+import LpTop from "@/components/LpTop";
 
 export default async function Index() {
   const canInitSupabaseClient = () => {
@@ -28,7 +28,7 @@ export default async function Index() {
       </nav>
 
       <div className="animate-in flex-1 flex flex-col gap-20 opacity-0 max-w-4xl px-3">
-        <Header />
+        <LpTop />
         <main className="flex-1 flex flex-col gap-6">
 
         </main>
