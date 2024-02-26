@@ -16,5 +16,23 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require("daisyui")
+  ],
+
+  daisyui: {
+    themes: [ 
+      {
+        mytheme: {
+          "primary": "#4f46e5",
+          "secondary": "#db2777",
+          "accent": "#0891b2",
+          "neutral": "#e6e9ea",
+          "base-100": "#9333ea",
+        },
+      },
+      "dark", 
+      "cupcake"],
+  },
 }; 

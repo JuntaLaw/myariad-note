@@ -14,6 +14,8 @@
 
 3. 2024/02/26 UIコンポーネントライブラリ、Three.jsライブラリ導入。UI作り込み中
     - UIコンポーネントライブラリはDaisy UIをインストール
-        - Shadcn ui はGlobal CSSを書き換えてしまうのでremove (Git Revert済み)
+        - Shadcn ui はGlobal CSSを書き換えてしまうのでremove (Git Revert済み) 
+        - Mytheme Color 設定済み
     - React Three Fiber (Three.jsライブラリ)をTypeScriptバージョンで導入 
         - app/three フォルダへ練習用ファイル作成
+    - Tailwind Typography 導入
