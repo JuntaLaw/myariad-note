@@ -15,6 +15,9 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      notoSansJP: ["var(--font-noto-sans-jp)"], // Fixed: Assigned the value to the notoSansJP property
+    }
   },
   plugins: [
     require('@tailwindcss/typography'),
@@ -34,5 +37,13 @@ module.exports = {
       },
       "dark", 
       "cupcake"],
+    darkTheme: {
+      "primary": "#4f46e5",
+      "secondary": "#db2777",
+      "accent": "#0891b2",
+      "neutral": "#e6e9ea",
+      "base-100": "#164e63",
+    },
+    base: true,
   },
 }; 
