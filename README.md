@@ -1,5 +1,9 @@
 # 卒業制作 Myariad Notebook 
 
+## デプロイ：
+https://myariad-note.vercel.app/ 
+
+
 ## 更新履歴
 
 1.  2024/02/24 プロジェクトスタート。下記の Vercel Next.js Supabase Starter Templateを使用。
