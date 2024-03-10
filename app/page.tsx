@@ -1,6 +1,9 @@
 import AuthButton from "../components/AuthButton";
+import SignUpButton from "@/components/ui/Button/SignUpButton";
 import { createClient } from "@/utils/supabase/server";
 import LpTop from "@/components/lp/LpTop";
+import React from 'react';
+import { PiPawPrint } from 'react-icons/pi';
 
 export default async function Index() {
   const canInitSupabaseClient = () => {
@@ -18,10 +21,13 @@ export default async function Index() {
 
   return (
     <div className="flex-1 w-full flex flex-col gap-20 items-center">
-      <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
-        <div className="w-full mx-10 flex justify-end items-center p-3 text-sm gap-5">
+      <nav className="w-full flex justify-center border-b border-b-foreground/10 h-24">
+        <div className="w-full mx-10 flex justify-end items-center p-3 text-sm gap-2">
           {isSupabaseConnected && <AuthButton />}
-          <button className="btn btn-secondary">Sign Up</button>
+          <SignUpButton />
+          {/* <button className="btn btn-ghost glass my-4 w-30">
+            <PiPawPrint className="mr-2" />
+            Sign Up</button> */}
         </div>
       </nav>
 
