@@ -1,8 +1,7 @@
 import AuthButton from "@/components/ui/Button/AuthButton";
 import Sidebar from "@/components/navi/Sidebar";
+import Notebook from "@/components/ui/Card/Notebook";
 import { createClient } from "@/utils/supabase/server";
-import FetchDataSteps from "@/components/tutorial/FetchDataSteps";
-import Header from "@/components/lp/LpTop";
 import { redirect } from "next/navigation";
 
 export default async function ProtectedPage() {
@@ -21,17 +20,14 @@ export default async function ProtectedPage() {
             <div>
                 <nav className="flex justify-start h-screen">
                     <Sidebar />
-
-                    {/* <AuthButton /> */}
-
-
                 </nav>
             </div>
 
-            <div className="">
+            <div>
 
-                <main className="">
-
+                <main className="ml-10 mt-10 flex gap-10">
+                    <Notebook />
+                    <Notebook />
                 </main>
             </div>
 
