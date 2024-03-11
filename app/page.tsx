@@ -1,4 +1,4 @@
-import AuthButton from "../components/AuthButton";
+import AuthButton from "../components/ui/Button/AuthButton";
 import SignUpButton from "@/components/ui/Button/SignUpButton";
 import { createClient } from "@/utils/supabase/server";
 import LpTop from "@/components/lp/LpTop";

@@ -20,8 +20,8 @@ export default async function AuthButton() {
   };
 
   return user ? (
-    <div className="flex items-center gap-4">
-      Hey, {user.email}!
+    <div className="flex flex-col items-center gap-4">
+      {/* こんにちは, {user.email}! */}
       <form action={signOut}>
         <button className="btn btn-ghost glass mx-4 w-30">
           <PiSignOut size={25} className="mr-2" />
