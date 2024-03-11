@@ -12,17 +12,16 @@
     --btn-background-hover: 200 10% 89%;
     --foreground: 200 50% 3%;
   }
-
+/* 
   @media (prefers-color-scheme: dark) {
-    :root {
-      /* --background: 200 50% 3%; */
+    :root { 
       background-color: rgb(22, 78, 99);
       background-image: radial-gradient(at 47.59% 16.33%, rgb(17, 24, 39) 0, transparent 56%), radial-gradient(at 12.61% 85.17%, rgb(55, 65, 81) 0, transparent 81%), radial-gradient(at 85.95% 88.33%, rgb(88, 28, 135) 0, transparent 24%), radial-gradient(at 59.40% 57.17%, rgb(14, 116, 144) 0, transparent 67%), radial-gradient(at 85.07% 11.33%, rgb(131, 24, 67) 0, transparent 39%), radial-gradient(at 31.64% 78.33%, rgb(12, 74, 110) 0, transparent 57%); 
       --btn-background: 200 10% 9%;
       --btn-background-hover: 200 10% 12%;
       --foreground: 200 20% 96%;
     }
-  }
+  } */
 }
 
 @layer base {

@@ -4,7 +4,8 @@ import CreateNoteButton from '../ui/Button/CreateNoteButton';
 import CreateCardButton from '../ui/Button/CreateCardButton';
 import TrashButton from '../ui/Button/TrashButton';
 import PublishButton from '../ui/Button/PublishButton';
-import AuthButton from '../ui/Button/AuthButton';
+import LogOutButton from '../ui/Button/LogOutButton';
+// import AuthButton from '../ui/Button/AuthButton';
 
 
 
@@ -25,7 +26,8 @@ const Sidebar = () => {
                 <PublishButton />
             </div>
             <div className="mt-auto mb-10">
-                <AuthButton />
+                {/* <AuthButton /> */}
+                <LogOutButton />
 
             </div>
 

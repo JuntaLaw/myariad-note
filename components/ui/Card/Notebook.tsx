@@ -1,7 +1,7 @@
 import { FaPaw } from 'react-icons/fa';
 import NextImage from 'next/image';
 
-const NoteCard = () => {
+const Notebook = () => {
     return (
         <div
             className="card glass w-60 h-96 shadow-xl relative bg-cover bg-center text-white rounded-b-xl overflow-hidden"
@@ -22,4 +22,4 @@ const NoteCard = () => {
         </div>
     );
 };
-export default NoteCard;
+export default Notebook;
